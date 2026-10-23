@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Dr Alfaiz’s Touch of Care Physiotherapy Clinic | Pimple Gurav</title>
+<meta name="description" content="Explore physiotherapy services for back pain, neck pain, sciatica management and rehabilitation at Dr Alfaiz’s Touch of Care Physiotherapy Clinic in Pimple Gurav, Pimpri-Chinchwad.">
+<meta name="theme-color" content="#0f766e">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='8' fill='%230f766e'/><path d='M16 7v18M7 16h18' stroke='white' stroke-width='4' stroke-linecap='round'/></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--teal:#0f766e;--teal-d:#0b5a54;--navy:#0b2545;--mint:#e8f7f4;--aqua:#d4f1ec;--ink:#41536b;--line:#dbe7e5;--wa:#128c4a;--r:20px;--sh:0 10px 30px rgba(11,37,69,.08)}
+*{box-sizing:border-box;margin:0}
+html{scroll-behavior:smooth;scroll-padding-top:80px}
+body{font-family:"Plus Jakarta Sans",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;color:var(--ink);background:#fff;line-height:1.65;font-size:16px;padding-bottom:70px}
+img{max-width:100%;display:block}
+a{color:inherit;text-decoration:none}
+h1,h2,h3{color:var(--navy);line-height:1.15;letter-spacing:-.02em}
+.wrap{width:min(1160px,92%);margin-inline:auto}
+section{padding:72px 0}
+.eyebrow{display:inline-block;color:var(--teal);font-weight:700;font-size:.8rem;letter-spacing:.12em;text-transform:uppercase;margin-bottom:10px}
+h2{font-size:clamp(1.7rem,4vw,2.4rem);margin-bottom:12px}
+.lead{max-width:620px;margin-bottom:36px}
+.btn{display:inline-flex;align-items:center;gap:8px;padding:14px 24px;border-radius:999px;font-weight:700;font-size:1rem;border:2px solid transparent;cursor:pointer;transition:transform .2s,box-shadow .2s,background .2s}
+.btn:hover{transform:translateY(-2px)}
+.btn:focus-visible,a:focus-visible,button:focus-visible{outline:3px solid #f59e0b;outline-offset:3px}
+.btn-wa{background:var(--wa);color:#fff;box-shadow:0 8px 20px rgba(18,140,74,.28)}
+.btn-wa:hover{background:#0e7a40}
+.btn-out{border-color:var(--teal);color:var(--teal);background:#fff}
+.btn-out:hover{background:var(--mint)}
+.btn-teal{background:var(--teal);color:#fff}
+.btn-teal:hover{background:var(--teal-d)}
+.btn svg{width:20px;height:20px;flex:none}
+/* header */
+header{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.94);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+.nav{display:flex;align-items:center;justify-content:space-between;height:68px;gap:16px}
+.brand{display:flex;align-items:center;gap:10px;font-weight:800;color:var(--navy);line-height:1.15;font-size:.95rem}
+.brand small{display:block;font-weight:600;color:var(--teal);font-size:.72rem;letter-spacing:.04em}
+.logo{width:38px;height:38px;border-radius:11px;background:var(--teal);display:grid;place-items:center;flex:none}
+.logo svg{width:22px;height:22px}
+nav ul{list-style:none;display:flex;gap:26px;padding:0}
+nav a{font-weight:600;font-size:.93rem;color:var(--navy)}
+nav a:hover{color:var(--teal)}
+.menu-btn{display:none;background:none;border:0;padding:8px;cursor:pointer}
+.menu-btn svg{width:28px;height:28px;stroke:var(--navy)}
+.nav .btn{padding:10px 20px;font-size:.9rem}
+@media(max-width:900px){
+ .menu-btn{display:block}
+ nav{position:absolute;left:0;right:0;top:68px;background:#fff;border-bottom:1px solid var(--line);display:none;padding:12px 4% 20px}
+ nav.open{display:block}
+ nav ul{flex-direction:column;gap:0}
+ nav li a{display:block;padding:14px 4px;border-bottom:1px solid var(--line)}
+ .nav>.btn{display:none}
+}
+/* hero */
+.hero{padding:48px 0 72px;background:linear-gradient(180deg,var(--mint),#fff)}
+.hero .wrap{display:grid;grid-template-columns:1.05fr .95fr;gap:48px;align-items:center}
+.hero h1{font-size:clamp(2.2rem,6vw,3.7rem);margin-bottom:18px}
+.hero h1 span{color:var(--teal)}
+.hero p{font-size:1.08rem;max-width:540px;margin-bottom:26px}
+.cta{display:flex;flex-wrap:wrap;gap:12px;margin-bottom:26px}
+.chips{display:flex;flex-wrap:wrap;gap:10px;list-style:none;padding:0}
+.chips li{background:#fff;border:1px solid var(--line);padding:8px 14px;border-radius:999px;font-size:.88rem;font-weight:600;color:var(--navy)}
+.imgbox{position:relative;border-radius:28px;overflow:hidden;box-shadow:var(--sh);background:linear-gradient(135deg,var(--aqua),#b9e4dd);aspect-ratio:4/4.4}
+.imgbox img{width:100%;height:100%;object-fit:cover}
+.imgbox .fb{position:absolute;inset:0;display:none;place-items:center}
+.imgbox .fb svg{width:38%;opacity:.55}
+.imgbox.failed .fb{display:grid}
+.imgbox.failed img{display:none}
+.rating{position:absolute;left:16px;bottom:16px;background:#fff;border-radius:16px;padding:12px 16px;box-shadow:var(--sh);display:flex;align-items:center;gap:12px}
+.rating b{font-size:1.5rem;color:var(--navy);line-height:1}
+.rating small{display:block;color:var(--ink);font-size:.78rem}
+.stars{color:#f59e0b;letter-spacing:2px;font-size:1rem}
+.hero .imgbox{aspect-ratio:auto;min-height:440px}
+@media(max-width:900px){.hero .wrap{grid-template-columns:1fr}.hero .imgbox{min-height:320px;order:-1}.hero{padding-top:24px}}
+/* services */
+.grid{display:grid;gap:20px;grid-template-columns:repeat(auto-fill,minmax(260px,1fr))}
+.card{background:#fff;border:1px solid var(--line);border-radius:var(--r);padding:26px;transition:transform .25s,box-shadow .25s}
+.card:hover{transform:translateY(-5px);box-shadow:var(--sh)}
+.ico{width:52px;height:52px;border-radius:15px;background:var(--mint);display:grid;place-items:center;margin-bottom:16px}
+.ico svg{width:28px;height:28px;stroke:var(--teal);fill:none;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+.card h3{font-size:1.15rem;margin-bottom:8px}
+.card p{font-size:.95rem}
+.card a.more{display:inline-block;margin-top:14px;font-weight:700;color:var(--teal);font-size:.9rem}
+.note{margin-top:26px;font-size:.88rem;background:var(--mint);padding:14px 18px;border-radius:14px}
+/* about */
+.alt{background:var(--mint)}
+.split{display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:center}
+.split .imgbox{aspect-ratio:4/3.4}
+.ticks{list-style:none;padding:0;margin:18px 0 26px;display:grid;gap:10px}
+.ticks li{display:flex;gap:10px;font-weight:500}
+.ticks li:before{content:"";flex:none;width:22px;height:22px;border-radius:50%;background:var(--teal) url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='white' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'><path d='M6 12l4 4 8-8'/></svg>") center/14px no-repeat;margin-top:2px}
+.cap{font-size:.78rem;color:#5b6b80;margin-top:8px}
+@media(max-width:900px){.split{grid-template-columns:1fr;gap:28px}}
+/* gallery */
+.tiles{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:8px}
+.tiles .imgbox{aspect-ratio:1/1;border-radius:20px}
+@media(max-width:700px){.tiles{grid-template-columns:1fr 1fr}.tiles .imgbox:last-child{grid-column:span 2;aspect-ratio:16/9}}
+/* journey */
+.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;counter-reset:s}
+.step{background:#fff;border-radius:var(--r);padding:28px;box-shadow:var(--sh);position:relative}
+.step:before{counter-increment:s;content:counter(s);position:absolute;top:-16px;left:26px;width:36px;height:36px;border-radius:50%;background:var(--teal);color:#fff;font-weight:800;display:grid;place-items:center}
+.step .ico{background:var(--aqua)}
+.step h3{font-size:1.1rem;margin-bottom:6px}
+@media(max-width:800px){.steps{grid-template-columns:1fr;gap:30px}}
+/* trust */
+.trust{text-align:center}
+.trust .box{display:inline-flex;align-items:center;gap:22px;border:1px solid var(--line);border-radius:24px;padding:26px 38px;box-shadow:var(--sh);flex-wrap:wrap;justify-content:center}
+.trust b{font-size:3rem;color:var(--navy);line-height:1}
+.trust .stars{font-size:1.4rem;display:block}
+/* location */
+.loc{display:grid;grid-template-columns:1fr 1.1fr;gap:32px;align-items:stretch}
+.panel{background:#fff;border:1px solid var(--line);border-radius:var(--r);padding:28px}
+.panel h3{margin-bottom:14px}
+.hours{width:100%;border-collapse:collapse;font-size:.95rem;margin-bottom:18px}
+.hours td{padding:9px 0;border-bottom:1px dashed var(--line)}
+.hours td:last-child{text-align:right;font-weight:600;color:var(--navy)}
+.addr{margin-bottom:12px}
+.addr a{color:var(--teal);font-weight:700}
+.map{border-radius:var(--r);overflow:hidden;min-height:380px;border:1px solid var(--line)}
+.map iframe{width:100%;height:100%;min-height:380px;border:0}
+@media(max-width:900px){.loc{grid-template-columns:1fr}}
+.contact{background:var(--navy);color:#cfe0f0;text-align:center}
+.contact h2{color:#fff}
+.contact .lead{margin-inline:auto}
+.contact .cta{justify-content:center;margin:0}
+.contact .btn-out{background:transparent;color:#fff;border-color:#fff}
+.contact .btn-out:hover{background:rgba(255,255,255,.1)}
+.contact small{display:block;margin-top:20px;font-size:.85rem;opacity:.85}
+/* footer */
+footer{background:#071a33;color:#aebfd3;padding:48px 0 24px;font-size:.92rem}
+.fgrid{display:grid;grid-template-columns:1.4fr 1fr 1fr 1.2fr;gap:30px;margin-bottom:30px}
+footer h4{color:#fff;margin-bottom:12px;font-size:.95rem}
+footer ul{list-style:none;padding:0;display:grid;gap:7px}
+footer a:hover{color:#fff;text-decoration:underline}
+.copy{border-top:1px solid rgba(255,255,255,.12);padding-top:18px;display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px;font-size:.82rem}
+@media(max-width:800px){.fgrid{grid-template-columns:1fr 1fr}}
+@media(max-width:520px){.fgrid{grid-template-columns:1fr}}
+/* floating */
+.fab{position:fixed;right:20px;bottom:24px;z-index:60;width:58px;height:58px;border-radius:50%;background:var(--wa);display:grid;place-items:center;box-shadow:0 10px 24px rgba(18,140,74,.4);transition:transform .2s}
+.fab:hover{transform:scale(1.08)}
+.fab svg{width:30px;height:30px}
+.bar{display:none}
+@media(max-width:700px){
+ .fab{display:none}
+ .bar{display:grid;grid-template-columns:1fr 1fr;gap:10px;position:fixed;left:0;right:0;bottom:0;z-index:60;padding:10px 12px calc(10px + env(safe-area-inset-bottom));background:#fff;border-top:1px solid var(--line);box-shadow:0 -6px 20px rgba(11,37,69,.08)}
+ .bar .btn{justify-content:center;padding:13px 8px}
+ section{padding:56px 0}
+}
+/* motion */
+.rv{opacity:0;transform:translateY(22px);transition:opacity .7s,transform .7s}
+.rv.in{opacity:1;transform:none}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important;animation:none!important}.rv{opacity:1;transform:none}}
+</style>
+</head>
+<body>
+<a href="#main" style="position:absolute;left:-999px" onfocus="this.style.left='8px'">Skip to content</a>
+<header>
+ <div class="wrap nav">
+  <a href="#home" class="brand" aria-label="Touch of Care Physiotherapy Clinic home">
+   <span class="logo"><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round"><path d="M12 4v16M4 12h16"/></svg></span>
+   <span>Dr Alfaiz’s Touch of Care<small>PHYSIOTHERAPY CLINIC</small></span>
+  </a>
+  <nav id="menu" aria-label="Main">
+   <ul>
+    <li><a href="#home">Home</a></li><li><a href="#about">About</a></li><li><a href="#services">Services</a></li>
+    <li><a href="#why">Why Choose Us</a></li><li><a href="#location">Location &amp; Contact</a></li>
+   </ul>
+  </nav>
+  <a class="btn btn-wa wa" href="#" target="_blank" rel="noopener">Book Appointment</a>
+  <button class="menu-btn" id="mb" aria-label="Open menu" aria-expanded="false" aria-controls="menu"><svg viewBox="0 0 24 24" fill="none" stroke-width="2.4" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+ </div>
+</header>
+
+<main id="main">
+<section class="hero" id="home">
+ <div class="wrap">
+  <div>
+   <span class="eyebrow">Pimple Gurav · Pimpri-Chinchwad</span>
+   <h1>Move Better. Feel Better. <span>Live Pain-Free.</span></h1>
+   <p>Dr Alfaiz’s Touch of Care Physiotherapy Clinic in Pimple Gurav offers physiotherapy for back pain, neck pain and rehabilitation support, with personalised guidance from Dr. Alfaiz Tamboli (PT).</p>
+   <div class="cta">
+    <a class="btn btn-wa wa" href="#" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor"><use href="#i-wa"/></svg>Book on WhatsApp</a>
+    <a class="btn btn-out" href="#services">Explore Our Services</a>
+   </div>
+   <ul class="chips"><li>📍 Kalpataru Estate, Pimple Gurav</li><li>🕒 Open Mon–Sun</li><li>📞 +91 81497 11288</li></ul>
+  </div>
+  <div class="imgbox" data-img="hero">
+   <img alt="Physiotherapist assisting a patient with back assessment (representative stock photo)" width="800" height="880" fetchpriority="high">
+   <div class="fb"><svg viewBox="0 0 64 64" fill="none" stroke="#0f766e" stroke-width="3" stroke-linecap="round"><circle cx="32" cy="14" r="7"/><path d="M32 22v20M20 30l12-4 12 4M32 42l-9 16M32 42l9 16"/></svg></div>
+   <div class="rating"><span class="stars" aria-hidden="true">★★★★★</span><div><b>5.0</b><small>Google Business rating</small></div></div>
+  </div>
+ </div>
+</section>
+
+<section id="services">
+ <div class="wrap">
+  <span class="eyebrow">Services</span>
+  <h2>Physiotherapy for everyday pain and recovery</h2>
+  <p class="lead">Care focused on movement, function and rehabilitation for common musculoskeletal concerns.</p>
+  <div class="grid" id="svc"></div>
+  <p class="note">Physiotherapy does not replace a medical assessment where one is needed. Results vary from person to person, and the right plan is decided after assessment.</p>
+ </div>
+</section>
+
+<section class="alt" id="about">
+ <div class="wrap split">
+  <div>
+   <span class="eyebrow">About the clinic</span>
+   <h2>Patient-focused care with Dr. Alfaiz Tamboli (PT)</h2>
+   <p>Dr Alfaiz’s Touch of Care Physiotherapy Clinic is a physiotherapy practice in Pimple Gurav focused on pain management and rehabilitation. Every visit is built around understanding your concern, how you move, and what you need to get back to daily life.</p>
+   <ul class="ticks">
+    <li>Movement assessment to understand the source of your concern</li>
+    <li>Rehabilitation guidance and exercises you can follow at home</li>
+    <li>Personalised care, explained in simple language</li>
+   </ul>
+   <a class="btn btn-teal wa" href="#" target="_blank" rel="noopener">Ask a Question on WhatsApp</a>
+  </div>
+  <div>
+   <div class="imgbox" data-img="consult"><img alt="Physiotherapist in a clinical consultation with a patient (representative stock photo)" loading="lazy" width="800" height="680"><div class="fb"><svg viewBox="0 0 64 64" fill="none" stroke="#0f766e" stroke-width="3" stroke-linecap="round"><circle cx="22" cy="20" r="7"/><circle cx="44" cy="24" r="6"/><path d="M10 50c0-10 24-10 24 0M34 50c0-8 20-8 20 0"/></svg></div></div>
+   <p class="cap">Representative stock photography. Images do not show the clinic’s staff or patients.</p>
+  </div>
+ </div>
+</section>
+
+<section id="why">
+ <div class="wrap">
+  <span class="eyebrow">Why choose us</span>
+  <h2>Care that is easy to reach and easy to follow</h2>
+  <p class="lead">Practical conveniences and a clear approach to treatment.</p>
+  <div class="grid" id="whyg"></div>
+  <div class="tiles rv">
+   <div class="imgbox" data-img="back"><img alt="Physiotherapist examining a patient’s spine (representative stock photo)" loading="lazy" width="500" height="500"><div class="fb"><svg viewBox="0 0 64 64" fill="none" stroke="#0f766e" stroke-width="3" stroke-linecap="round"><path d="M32 8v48M24 16h16M24 28h16M24 40h16"/></svg></div></div>
+   <div class="imgbox" data-img="neck"><img alt="Patient doing guided neck and shoulder exercises (representative stock photo)" loading="lazy" width="500" height="500"><div class="fb"><svg viewBox="0 0 64 64" fill="none" stroke="#0f766e" stroke-width="3" stroke-linecap="round"><circle cx="32" cy="16" r="8"/><path d="M12 54c0-14 10-20 20-20s20 6 20 20"/></svg></div></div>
+   <div class="imgbox" data-img="mobility"><img alt="Patient performing guided mobility exercises (representative stock photo)" loading="lazy" width="500" height="500"><div class="fb"><svg viewBox="0 0 64 64" fill="none" stroke="#0f766e" stroke-width="3" stroke-linecap="round"><circle cx="32" cy="12" r="6"/><path d="M32 18v18M14 28l18-6 18 6M32 36l-10 20M32 36l10 20"/></svg></div></div>
+  </div>
+ </div>
+</section>
+
+<section class="alt" id="journey">
+ <div class="wrap">
+  <span class="eyebrow">Your first visit</span>
+  <h2>A simple three-step journey</h2>
+  <p class="lead">No complicated process. Message the clinic and take it from there.</p>
+  <div class="steps">
+   <div class="step"><div class="ico"><svg viewBox="0 0 24 24"><path d="M21 15a2 2 0 01-2 2H8l-5 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg></div><h3>Contact the clinic</h3><p>Call or send a WhatsApp message with a few words about your concern.</p></div>
+   <div class="step"><div class="ico"><svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="17" rx="3"/><path d="M8 2v4M16 2v4M3 10h18"/></svg></div><h3>Discuss &amp; schedule</h3><p>Share your concern and agree on a suitable appointment time.</p></div>
+   <div class="step"><div class="ico"><svg viewBox="0 0 24 24"><path d="M9 11l3 3 8-8M20 12v7a2 2 0 01-2 2H6a2 2 0 01-2-2V7a2 2 0 012-2h9"/></svg></div><h3>Assessment &amp; guidance</h3><p>Attend an assessment and receive appropriate guidance for your next steps.</p></div>
+  </div>
+ </div>
+</section>
+
+<section class="trust">
+ <div class="wrap">
+  <span class="eyebrow">Trust</span>
+  <h2>Rated 5.0 on Google</h2>
+  <div class="box rv"><div><b>5.0</b><span class="stars" aria-label="5 out of 5 stars">★★★★★</span></div><p style="max-width:300px;text-align:left">Rating from the clinic’s Google Business listing.</p></div>
+ </div>
+</section>
+
+<section id="location">
+ <div class="wrap">
+  <span class="eyebrow">Location &amp; contact</span>
+  <h2>Visit us in Pimple Gurav</h2>
+  <p class="lead">Find the clinic, check timings, and get in touch.</p>
+  <div class="loc">
+   <div class="panel">
+    <h3>Clinic timings</h3>
+    <table class="hours"><tbody>
+     <tr><td>Monday – Saturday</td><td>10:00 AM – 2:00 PM<br>5:00 PM – 10:00 PM</td></tr>
+     <tr><td>Sunday</td><td>10:00 AM – 1:00 PM</td></tr>
+    </tbody></table>
+    <h3>Address</h3>
+    <p class="addr">Ph-1 Road, Kalpataru Estate, Kashid Park, Jawakar Nagar, Pimple Gurav, Pimpri-Chinchwad, Maharashtra 411061, India</p>
+    <p class="addr">Phone: <a href="tel:+918149711288">+91 81497 11288</a></p>
+    <div class="cta" style="margin:18px 0 0">
+     <a class="btn btn-teal" id="dir" href="#" target="_blank" rel="noopener">Get Directions</a>
+     <a class="btn btn-wa wa" href="#" target="_blank" rel="noopener">Contact on WhatsApp</a>
+    </div>
+   </div>
+   <div class="map"><iframe id="mapf" title="Map showing Touch of Care Physiotherapy Clinic, Pimple Gurav" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+  </div>
+ </div>
+</section>
+
+<section class="contact" id="contact">
+ <div class="wrap">
+  <h2>Ready to enquire about an appointment?</h2>
+  <p class="lead">Send a message or call the clinic. Appointment availability should be confirmed directly with the clinic.</p>
+  <div class="cta">
+   <a class="btn btn-wa wa" href="#" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor"><use href="#i-wa"/></svg>WhatsApp the Clinic</a>
+   <a class="btn btn-out" href="tel:+918149711288">Call +91 81497 11288</a>
+  </div>
+  <small>Not for emergencies. If you have sudden leg weakness, bowel or bladder changes, or severe symptoms, seek medical care promptly.</small>
+ </div>
+</section>
+</main>
+
+<footer>
+ <div class="wrap">
+  <div class="fgrid">
+   <div><h4>Dr Alfaiz’s Touch of Care Physiotherapy Clinic</h4><p>Ph-1 Road, Kalpataru Estate, Kashid Park, Jawakar Nagar, Pimple Gurav, Pimpri-Chinchwad, Maharashtra 411061</p><p style="margin-top:8px"><a href="tel:+918149711288">+91 81497 11288</a></p></div>
+   <div><h4>Quick links</h4><ul><li><a href="#home">Home</a></li><li><a href="#about">About</a></li><li><a href="#services">Services</a></li><li><a href="#why">Why Choose Us</a></li><li><a href="#location">Location &amp; Contact</a></li></ul></div>
+   <div><h4>Services</h4><ul><li>Back &amp; neck pain</li><li>Sciatica management</li><li>Orthopedic physiotherapy</li><li>Sports &amp; post-op rehab</li><li>Posture &amp; mobility</li></ul></div>
+   <div><h4>Clinic hours</h4><ul><li>Mon–Sat: 10 AM–2 PM, 5–10 PM</li><li>Sun: 10 AM–1 PM</li><li><a class="wa" href="#" target="_blank" rel="noopener">Message on WhatsApp</a></li></ul></div>
+  </div>
+  <div class="copy"><span>© <span id="yr"></span> Dr Alfaiz’s Touch of Care Physiotherapy Clinic. All rights reserved.</span><span>Website demo by <a href="https://wa.me/918857015469" target="_blank" rel="noopener">Himanshu Bakre</a></span></div>
+ </div>
+</footer>
+
+<a class="fab wa" href="#" target="_blank" rel="noopener" aria-label="Chat on WhatsApp"><svg viewBox="0 0 24 24" fill="#fff"><use href="#i-wa"/></svg></a>
+<div class="bar"><a class="btn btn-out" href="tel:+918149711288">Call Clinic</a><a class="btn btn-wa wa" href="#" target="_blank" rel="noopener">WhatsApp</a></div>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><symbol id="i-wa" viewBox="0 0 24 24"><path d="M12 2a10 10 0 00-8.6 15.1L2 22l5-1.3A10 10 0 1012 2zm0 18.1c-1.5 0-3-.4-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.1 8.1 0 1112 20.1zm4.5-6c-.2-.1-1.5-.7-1.7-.8s-.4-.1-.6.1-.6.8-.8 1-.3.2-.6.1a6.6 6.6 0 01-3.3-2.9c-.2-.4.2-.4.7-1.3.1-.2 0-.3 0-.5l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 00-.7.3 3 3 0 00-.9 2.2 5.2 5.2 0 001.1 2.8 12 12 0 004.6 4c1.7.7 2.4.8 3.2.7a2.7 2.7 0 001.8-1.3 2.2 2.2 0 00.2-1.3c-.1-.1-.3-.2-.5-.3z"/></symbol></svg>
+
+<script>
+(function(){
+ /* ---- Easy-edit config ---- */
+ var WA_NUMBER="918149711288";
+ var WA_MSG="Hello Dr. Alfaiz, I would like to enquire about a physiotherapy appointment at your Pimple Gurav clinic. Please share the available timings.";
+ var ADDRESS="Dr Alfaiz’s Touch of Care Physiotherapy Clinic, Ph-1 Road, Kalpataru Estate, Kashid Park, Jawakar Nagar, Pimple Gurav, Pimpri-Chinchwad, Maharashtra 411061";
+ /* Stock photos (Unsplash). Replace any URL with your own; a fallback illustration shows if one fails to load. */
+ var U="https://images.unsplash.com/";
+ var IMG={
+  hero:U+"photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=900&q=70",
+  consult:U+"photo-1584515933487-779824d29309?auto=format&fit=crop&w=800&q=70",
+  back:U+"photo-1559757148-5c350d0d3c56?auto=format&fit=crop&w=500&q=70",
+  neck:U+"photo-1544367567-0f2fcb009e0b?auto=format&fit=crop&w=500&q=70",
+  mobility:U+"photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&w=500&q=70"
+ };
+ var wa="https://wa.me/"+WA_NUMBER+"?text="+encodeURIComponent(WA_MSG);
+ document.querySelectorAll("a.wa").forEach(function(a){a.href=wa});
+ var q=encodeURIComponent(ADDRESS);
+ document.getElementById("dir").href="https://www.google.com/maps/dir/?api=1&destination="+q;
+ document.getElementById("mapf").src="https://www.google.com/maps?q="+q+"&output=embed";
+ document.getElementById("yr").textContent=new Date().getFullYear();
+
+ var P={
+  back:'<path d="M12 3v18M8 6h8M8 10h8M8 14h8M9 18h6"/>',
+  neck:'<circle cx="12" cy="6" r="3"/><path d="M6 21c0-5 3-8 6-8s6 3 6 8"/>',
+  sci:'<path d="M8 3c3 3 0 6 3 9s0 6 2 9M16 5l-2 2"/>',
+  ortho:'<path d="M7 4a3 3 0 100 6 3 3 0 004-1l5 5a3 3 0 11-1 4 3 3 0 01-4 1l-5-5a3 3 0 01-1-4z"/>',
+  sport:'<circle cx="14" cy="5" r="2"/><path d="M5 21l4-7 4 2 2 5M9 14l1-5 5 2 3 3"/>',
+  post:'<path d="M12 21s-7-4.5-7-10a4 4 0 017-2.5A4 4 0 0119 11c0 5.5-7 10-7 10z"/>',
+  pos:'<path d="M12 3v18M6 8h12M8 21h8"/>',
+  clock:'<circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/>',
+  pin:'<path d="M12 21s7-6 7-11a7 7 0 10-14 0c0 5 7 11 7 11z"/><circle cx="12" cy="10" r="2.5"/>',
+  chat:'<path d="M21 15a2 2 0 01-2 2H8l-5 4V5a2 2 0 012-2h14a2 2 0 012 2z"/>',
+  move:'<path d="M5 12h14M13 6l6 6-6 6"/>',
+  heart:'<path d="M12 21s-8-5-8-11a4.5 4.5 0 018-2.5A4.5 4.5 0 0120 10c0 6-8 11-8 11z"/>',
+  user:'<circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 4-6 8-6s8 2 8 6"/>'
+ };
+ function card(i,t,d,link){return '<article class="card rv"><div class="ico"><svg viewBox="0 0 24 24">'+P[i]+'</svg></div><h3>'+t+'</h3><p>'+d+'</p>'+(link?'<a class="more wa" href="'+wa+'" target="_blank" rel="noopener">Enquire on WhatsApp →</a>':'')+'</article>'}
+ var S=[["back","Back Pain Physiotherapy","Assessment and exercise-based care for lower-back and upper-back pain, stiffness and posture strain."],
+ ["neck","Neck Pain Physiotherapy","Guidance for neck stiffness and discomfort, including pain linked to long hours at a desk or screen."],
+ ["sci","Sciatica Pain Management","Physiotherapy support for pain radiating from the back into the leg, based on a proper assessment of the cause."],
+ ["ortho","Orthopedic Physiotherapy","Rehabilitation for joint, muscle and bone concerns such as shoulder, knee and hip pain."],
+ ["sport","Sports Injury Rehabilitation","Structured recovery to restore strength, movement and confidence after sprains, strains and training injuries."],
+ ["post","Post-operative Rehabilitation","Guided rehabilitation to help regain mobility and function after surgery, in coordination with your surgeon’s advice."],
+ ["pos","Posture &amp; Mobility Exercises","Practical exercises to improve how you sit, stand and move in everyday life."]];
+ document.getElementById("svc").innerHTML=S.map(function(s){return card(s[0],s[1],s[2],1)}).join("");
+ var W=[["move","Movement-focused care","Treatment centred on movement, function and rehabilitation."],
+ ["ortho","Common musculoskeletal concerns","Support for back, neck, joint and muscle problems."],
+ ["pin","Convenient location","Based in Kalpataru Estate, Pimple Gurav."],
+ ["clock","Split clinic timings","Morning and evening sessions, with Sunday mornings open."],
+ ["chat","Easy WhatsApp enquiries","Send a message any time and confirm your slot with the clinic."],
+ ["user","Clear, individual care","Simple explanations and guidance suited to your needs."]];
+ document.getElementById("whyg").innerHTML=W.map(function(s){return card(s[0],s[1],s[2])}).join("");
+
+ document.querySelectorAll("[data-img]").forEach(function(b){
+  var im=b.querySelector("img");
+  im.onerror=function(){b.classList.add("failed")};
+  im.src=IMG[b.dataset.img];
+  im.decoding="async";
+ });
+
+ var mb=document.getElementById("mb"),nav=document.getElementById("menu");
+ mb.onclick=function(){var o=nav.classList.toggle("open");mb.setAttribute("aria-expanded",o)};
+ nav.addEventListener("click",function(e){if(e.target.tagName==="A"){nav.classList.remove("open");mb.setAttribute("aria-expanded","false")}});
+
+ var els=document.querySelectorAll(".rv");
+ if("IntersectionObserver" in window){
+  var io=new IntersectionObserver(function(en){en.forEach(function(x){if(x.isIntersecting){x.target.classList.add("in");io.unobserve(x.target)}})},{threshold:.12});
+  els.forEach(function(e){io.observe(e)});
+ }else els.forEach(function(e){e.classList.add("in")});
+})();
+</script>
+</body>
+</html>
